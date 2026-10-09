@@ -52,26 +52,54 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/mesh.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/glm.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/_fixes.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_printf.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/matrix_transform.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/matrix_double4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/type_mat4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/type_vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/setup.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stddef_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/enable_if.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/max_align_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../simd/platform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h \
@@ -81,12 +109,12 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_reference.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_reference.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_union.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/decay.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/declval.h \
@@ -94,6 +122,8 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/extent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_abstract.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_array.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_base_of.h \
@@ -101,7 +131,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_convertible.h \
@@ -127,7 +156,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_union.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h \
@@ -150,80 +178,11 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/special_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/copysign.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/float.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/setup.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_bounds.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stddef_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/max_align_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/../simd/platform.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__float_header_macro.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__float_float.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__float_infinity_nan.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/fwd.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/qualifier.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_bool2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/qualifier.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_vec2.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/./compute_vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/./setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_bool2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_double2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_double2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_int2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_int2_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/vector_int2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint2_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/scalar_uint_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_bool3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_vec3.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/compute_vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/compute_vector_decl.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/type_vec4.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/compute_vector_relational.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/compute_vector_decl.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -301,6 +260,32 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/special_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/copysign.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/float.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception_ptr.h \
@@ -317,7 +302,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h \
@@ -329,17 +313,10 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h \
@@ -355,7 +332,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
@@ -402,7 +378,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
@@ -481,15 +456,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stdarg_va_arg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stdarg___va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__stdarg_va_copy.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_printf.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
@@ -595,6 +561,13 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_log2.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/blsr.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition.h \
@@ -693,7 +666,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
@@ -848,240 +820,228 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wbuffer_convert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/wstring_convert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/_vectorize.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_bool3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_double3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_double3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_int3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_int3_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/vector_int3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint3_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/vector_uint3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_bool4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_vec4.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_bool4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_double4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_double4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_int4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_int4_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/vector_int4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint4_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../ext/vector_uint4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat2x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/matrix_double2x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_mat2x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/type_mat2x2.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../matrix.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../detail/qualifier.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat2x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat2x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat2x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat3x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat3x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../matrix.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/qualifier.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/_fixes.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/func_common.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/qualifier.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/func_vector_relational.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/compute_common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/type_vec1.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/type_vec1.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/./compute_vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/type_vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/type_vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/type_vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/_vectorize.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat3x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat4x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat2x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat4x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../mat4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/func_geometric.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../exponential.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec1.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/type_vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/func_exponential.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/../vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../detail/_vectorize.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/../detail/../detail/../common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../detail/func_matrix.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/../detail/../detail/../geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/matrix_double2x2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/matrix_float2x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/matrix_float2x2_precision.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat2x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat2x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat3x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat3x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat3x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat4x2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat4x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/func_trigonometric.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/_vectorize.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/exponential.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/packing.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/func_packing.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/../common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/type_half.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/type_half.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/matrix.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/integer.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/func_integer.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/vertex.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/edge.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/triangle.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/camera.h \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/quaternion_float.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/type_quat.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../detail/type_mat3x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../detail/type_mat4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../detail/type_vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../detail/type_vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../detail/qualifier.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/vector_relational.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../detail/type_float.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/quaternion_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/quaternion_relational.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/constants.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/scalar_constants.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/../detail/setup.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/scalar_constants.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/constants.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/matrix_transform.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../mat4x4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../vec4.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/matrix_projection.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/../gtc/constants.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/../geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/../trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/../matrix.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/matrix_projection.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/matrix_clip_space.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/../ext/scalar_constants.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/matrix_clip_space.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/matrix_transform.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../ext/matrix_transform.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/matrix_transform.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../gtc/../matrix.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/type_quat.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../exponential.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/quaternion_common.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../ext/scalar_constants.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../ext/quaternion_geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../ext/../geometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../ext/../exponential.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../ext/../ext/vector_relational.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../ext/quaternion_geometric.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/../exponential.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/quaternion_common.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/../detail/../ext/quaternion_geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/_vectorize.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/type_mat4x4.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../matrix.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../vec2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_bool2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_vec2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_vec2.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/./compute_vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_bool2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_float2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_float2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_double2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_double2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_int2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_int2_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/vector_int2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/scalar_int_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_uint2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_uint2_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/vector_uint2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/scalar_uint_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_bool3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_vec3.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/compute_vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/compute_vector_decl.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_bool3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_float3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_float3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_double3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_double3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_int3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_int3_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/vector_int3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_uint3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_uint3_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/vector_uint3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_bool4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_bool4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_float4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_float4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_double4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_double4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_int4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_int4_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/vector_int4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_uint4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/vector_uint4_sized.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../ext/vector_uint4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat2x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double2x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat2x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat2x2.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../matrix.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double2x2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float2x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float2x2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat2x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double2x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat2x3.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float2x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat2x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double2x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat2x4.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float2x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat3x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double3x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat3x2.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float3x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat3x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double3x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat3x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat3x3.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/_fixes.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/func_common.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/../vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/../detail/func_vector_relational.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/compute_common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/type_vec1.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/type_vec1.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/./compute_vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/type_vec2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/type_vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/type_vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/../detail/_vectorize.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double3x3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float3x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float3x3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat3x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double3x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat3x4.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float3x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat4x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double4x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat4x2.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float4x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat4x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double4x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/../detail/type_mat4x3.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float4x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../mat4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/func_matrix.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/type_vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/func_geometric.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../exponential.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/type_vec2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/type_vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/type_vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/func_exponential.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../detail/../detail/../common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/../detail/../geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/matrix_double4x4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/matrix_float4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/.././ext/matrix_float4x4_precision.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../vec2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/matrix_projection.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../gtc/constants.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../gtc/../ext/scalar_constants.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../gtc/../ext/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../gtc/../ext/scalar_constants.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../gtc/constants.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../trigonometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../detail/setup.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../detail/func_trigonometric.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../detail/_vectorize.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../matrix.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/matrix_projection.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/matrix_clip_space.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/../ext/scalar_constants.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/matrix_clip_space.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/matrix_transform.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../ext/matrix_transform.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/matrix_transform.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../trigonometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../matrix.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/type_ptr.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/quaternion.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../gtc/constants.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../gtc/matrix_transform.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/vector_relational.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/type_float.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/setup.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/scalar_constants.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/../geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/../exponential.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/../ext/vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../trigonometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../exponential.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_common.inl \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_float.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_float_precision.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/type_quat.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../detail/type_mat3x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../detail/type_mat4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../detail/type_vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../detail/type_vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../ext/vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../ext/../vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../gtc/constants.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../gtc/matrix_transform.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/type_quat.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../trigonometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../exponential.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_float_precision.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_double.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_double_precision.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_relational.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_geometric.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../trigonometric.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../exponential.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/scalar_constants.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_trigonometric.inl \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_transform.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../common.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../geometric.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/quaternion_transform.inl \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../detail/type_mat3x3.hpp \
@@ -1114,9 +1074,6 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/vector_uint1_sized.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/vector_uint1.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../gtc/../ext/../ext/scalar_uint_sized.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../vec2.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../vec3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../vec4.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat2x2.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat2x3.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat2x4.hpp \
@@ -1125,6 +1082,49 @@ CMakeFiles/learnply2.dir/src/main.cpp.o: \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat3x4.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat4x2.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat4x3.hpp \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/../mat4x4.hpp \
   /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/type_ptr.inl \
-  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/gtc/matrix_transform.hpp
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/camera.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/glm.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/_fixes.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/setup.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/float.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__float_header_macro.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__float_float.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include/__float_infinity_nan.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/fwd.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/qualifier.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vec2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vec3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vec4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat2x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat2x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat2x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat3x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat3x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat3x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat4x2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat4x3.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/mat4x4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/trigonometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/exponential.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/packing.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_uint2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float2.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/./ext/vector_float4.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/func_packing.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/../common.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/type_half.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/type_half.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/geometric.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/matrix.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/vector_relational.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/integer.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/func_integer.inl \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/detail/_vectorize.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/glm/glm/ext/quaternion_float.hpp \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/edge.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/mesh.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/triangle.h \
+  /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/src/vertex.h
