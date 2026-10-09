@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/cmake_install.cmake",
+		"/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/glfw-3.5.1/cmake_install.cmake",
+		"/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/glfw-3.5.1/src/cmake_install.cmake",
+		"/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/glm/cmake_install.cmake",
+		"/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/glm/glm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
