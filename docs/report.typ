@@ -105,12 +105,14 @@ a virtual unit sphere. Points outside the disk are placed on the equator.
 For old and new projected points $p_0$ and $p_1$, the rotation axis and angle
 are
 
-$ a = (p_0 times p_1) / ||p_0 times p_1|| $ \
-$ theta = arccos("clamp"(p_0 dot p_1, -1, 1)). $
+$ a = frac(p_0 times p_1, ||p_0 times p_1||) $ \
+$ theta = arccos(p_0 dot p_1). $
 
 The quaternion `angleAxis(theta, a)` is multiplied into the camera
-orientation. The lower-right panel of each model grid shows its selected
-natural orientation using normal wireframe rendering.
+orientation. In the implementation, the dot product is clamped to $[-1, 1]$
+before applying $arccos$ to account for floating-point rounding. The
+lower-right panel of each model grid shows its selected natural orientation
+using normal wireframe rendering.
 
 == 2(b)(ii). Tetrahedron rotational symmetry group
 
@@ -145,6 +147,11 @@ The list is complete because the identity contributes one element, each of
 the four vertices gives two nonidentity 3-fold rotations, and each of the
 three pairs of opposite edges gives one half-turn. Their totals are
 $1+4(2)+3=12$, matching $|A_4|$.
+
+I was most surprised that the tetrahedron has three distinct 180-degree
+rotations, in addition to the more visually obvious 120-degree rotations
+around its vertex-to-face axes. These half-turns exchange pairs of opposite
+edges while preserving the tetrahedron.
 
 = 3. Silhouette rendering
 
