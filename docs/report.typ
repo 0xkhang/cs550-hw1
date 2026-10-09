@@ -63,20 +63,36 @@ the camera view matrix in `display()`.
 
 == 1(b). Alternative bounding sphere
 
-The center used above is convenient but is not generally the center of the
-smallest enclosing sphere. A minimum-enclosing-sphere algorithm, such as
-Welzl's randomized algorithm, instead solves
+The center used above is the *unweighted center*: every vertex contributes
+equally, regardless of the size of the surface region around it. This can be
+problematic for a poorly meshed model. For example, a small region with many
+vertices can pull the center toward that region even though it represents only
+a small part of the surface.
 
-$ min_(c,r) r quad "subject to" ||p_i - c|| <= r " for every " i. $
+An alternative from the course definitions is the *area-weighted center*. For
+each triangle $t$, first compute its center:
 
-The resulting radius satisfies
+$ C(t) = (v_0 + v_1 + v_2) / 3. $
 
-$ r_"minimum" <= r_"mean-center". $
+Then weight each triangle center by its area:
 
-This can use more pixels because the sphere center is allowed to move toward
-an asymmetric group of vertices. The tradeoff is that the algorithm is more
-complex than the one-pass mean-center method. Insert a diagram here comparing
-the two circles for an asymmetric point set.
+$ c_A = (sum_(t in T) A(t) C(t)) / (sum_(t in T) A(t)), $
+
+where $A(t)$ is the area of triangle $t$. The radius is then recomputed using
+this center:
+
+$ r_A = max_(v in V) ||v - c_A||. $
+
+Unlike the unweighted center, this method gives larger surface regions more
+influence and reduces the effect of uneven vertex density. It can therefore
+place the center more appropriately and produce a smaller radius for an
+asymmetrically or poorly tessellated model, although it is not guaranteed to
+be smaller for every model. The tradeoff is that it requires using triangle
+areas and triangle centers instead of only looping over vertices.
+
+The illustration should show the same asymmetric point set or mesh with the
+unweighted center and sphere beside the area-weighted center and sphere. Label
+the centers $c_v$ and $c_A$, and label the radii $r_v$ and $r_A$.
 
 == 1(a) results
 
@@ -181,16 +197,16 @@ natural orientation, and normal rendering in the natural orientation.
     columns: 2,
     gutter: 3pt,
     rect(width: 100%, height: 0.63in, fill: luma(245), stroke: gray)[
-      #align(center + horizon)[Original]
+      #align(center + horizon)[00 — upper-left]
     ],
     rect(width: 100%, height: 0.63in, fill: luma(235), stroke: gray)[
-      #align(center + horizon)[Bounding sphere]
+      #align(center + horizon)[01 — upper-right]
     ],
     rect(width: 100%, height: 0.63in, fill: luma(225), stroke: gray)[
-      #align(center + horizon)[Silhouette]
+      #align(center + horizon)[10 — lower-left]
     ],
     rect(width: 100%, height: 0.63in, fill: luma(215), stroke: gray)[
-      #align(center + horizon)[Natural normal]
+      #align(center + horizon)[11 — lower-right]
     ],
   ),
   caption: [#text(weight: "bold")[#model + ".ply"]]
