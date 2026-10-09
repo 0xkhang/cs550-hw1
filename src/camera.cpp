@@ -127,10 +127,20 @@ static glm::vec3 project_to_sphere(
 	const glm::vec2 &dim   // size of the viewport in pixels
 )
 {
-	// TODO: Project 2D mouse pixel coordinates onto a unit sphere centered at the origin (normalized device coordinates)
-	// Hint: If the coordinates are outside the sphere, project to nearest point on the equator.
-	
-	return glm::vec3(0.0);
+	// Convert screen coordinates to normalized device coordinates. Screen y
+	// increases downward, while NDC y increases upward.
+	float x = 2.0f * pos.x / dim.x - 1.0f;
+	float y = 1.0f - 2.0f * pos.y / dim.y;
+	float xy_length_squared = x * x + y * y;
+
+	// Project onto the unit sphere x^2 + y^2 + z^2 = 1.
+	if (xy_length_squared <= 1.0f)
+		return glm::vec3(x, y, glm::sqrt(1.0f - xy_length_squared));
+
+	// Points outside the sphere are projected to the nearest point on its
+	// equator, as specified by the assignment.
+	float xy_length = glm::sqrt(xy_length_squared);
+	return glm::vec3(x / xy_length, y / xy_length, 0.0f);
 }
 
 void Camera::trackball(const glm::vec2 &old_pos, const glm::vec2 &new_pos)
@@ -139,8 +149,18 @@ void Camera::trackball(const glm::vec2 &old_pos, const glm::vec2 &new_pos)
 	glm::vec3 p0 = project_to_sphere(old_pos, dim);  // old position on sphere
 	glm::vec3 p1 = project_to_sphere(new_pos, dim);  // new position on sphere
 
-	// TODO: Find the quaternion rotating p0 to p1 and rotate _orienation to update the view
-	// Hint: glm::angleAxis(angle, axis) gives a quaternion rotating angle radians around axis
+	// The cross product gives an axis orthogonal to p0 and p1, while the dot
+	// product gives the angle between the two unit sphere points.
+	glm::vec3 axis = glm::cross(p0, p1);
+	float axis_length = glm::length(axis);
+	if (axis_length > 1.0e-6f)
+	{
+		axis /= axis_length;
+		float dot_product = glm::clamp(glm::dot(p0, p1), -1.0f, 1.0f);
+		float angle = glm::acos(dot_product);
+		glm::quat q = glm::angleAxis(angle, axis);
+		_orientation = glm::normalize(_orientation * q);
+	}
 
 	_dirty_mask |= DIRTY_VIEW;  // marks the view as dirty, keep this
 }

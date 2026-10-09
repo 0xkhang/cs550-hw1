@@ -3,7 +3,7 @@
 
 #set page(paper: "us-letter", margin: 1in)
 #set text(font: "New Computer Modern", size: 11pt, lang: "en")
-#set heading(numbering: "1.")
+#set heading(numbering: none)
 #set par(justify: true)
 
 #align(center)[
@@ -14,7 +14,7 @@
   #table(
     columns: (auto, 2.2in, auto, 1.8in),
     align: (left, left, left, left),
-    [*Student*], [Khang Le], [*OSU ID*], [934768758],
+    [*Student*], [Nguyen Khang Le], [*OSU ID*], [934768758],
     [*Course*], [CS 550], [*Date*], [October 9, 2026],
   )
 ]
@@ -23,39 +23,30 @@
 #block(inset: 10pt, stroke: (left: 2.5pt), radius: 2pt)[
   *Summary.* This project implements automatic model normalization using a
   bounding sphere, quaternion-based trackball rotation, and silhouette
-  rendering. Because this is the CS 550 version, the report also enumerates
-  the twelve rotational symmetries of the specified tetrahedron.
+  rendering.
 ]
-
-= Implementation
-
-The implementation is contained in `src/mesh.cpp`, `src/camera.cpp`, and
-`src/main.cpp`. The program is built with CMake and run with one PLY model path:
-
-```bash
-cmake --build build
-./build/learnply2 models/bunny.ply
-```
-
-The controls are left-drag for trackball rotation, `1` for wireframe, `2` for
-silhouette rendering, `R` for reset, and Escape to quit.
 
 = 1. Bounding sphere
 
 == 1(a). Computation and normalization
 
-For vertex positions $p_1, dots, p_n$, I compute the object-space center as the
-mean of all vertices:
+For the vertex set $V$, I compute the object-space center using the same
+unweighted-center formula as the provided definitions:
 
-$ c = 1/n sum_(i=1)^n p_i. $
+$ c_v = frac(1, |V|) sum_(v in V) v. $
 
 The radius is the greatest distance from this center to a vertex:
 
-$ r = max_(1 <= i <= n) ||p_i - c||. $
+$ r_v = max_(v in V) ||v - c_v||. $
+
+This is the *Unweighted Center* definition in the provided formulas document:
+every vertex in `Mesh::vertices` contributes equally to the center. In the
+implementation, $V$ corresponds to `Mesh::vertices` and each $v$ corresponds
+to `v->position`.
 
 The model matrix applies the transformation
 
-$ p'_i = (p_i - c) / r. $
+$ p' = (p - c_v) / r_v. $
 
 Thus the center is at the origin and every vertex is inside a sphere of radius
 one. This is implemented in `Mesh::compute_properties()` and applied before
@@ -69,14 +60,15 @@ problematic for a poorly meshed model. For example, a small region with many
 vertices can pull the center toward that region even though it represents only
 a small part of the surface.
 
-An alternative from the course definitions is the *area-weighted center*. For
+Following the second center definition in the provided formulas document, an
+alternative is the *area-weighted center*. For
 each triangle $t$, first compute its center:
 
 $ C(t) = (v_0 + v_1 + v_2) / 3. $
 
 Then weight each triangle center by its area:
 
-$ c_A = (sum_(t in T) A(t) C(t)) / (sum_(t in T) A(t)), $
+$ c_A = frac(sum_(t in T) A(t) C(t), sum_(t in T) A(t)), $
 
 where $A(t)$ is the area of triangle $t$. The radius is then recomputed using
 this center:
@@ -96,10 +88,13 @@ the centers $c_v$ and $c_A$, and label the radii $r_v$ and $r_A$.
 
 == 1(a) results
 
-The required combined screenshot grids are provided in the appendix. The
-upper-left panel is the original view and the upper-right panel is the
-bounding-sphere-normalized view. The lower panels contain the natural normal
-and silhouette views required by Parts 2(a) and 3(a).
+The required screenshots for Part 1(a), together with the screenshots for
+Parts 2(a) and 3(a), are collected in the appendix as one 2-by-2 grid per
+model. The suffixes are `00` for the original view, `01` for the
+bounding-sphere-adjusted view, `10` for silhouette rendering, and `11` for
+natural normal rendering.
+
+#pagebreak()
 
 = 2. Trackball interface
 
@@ -188,26 +183,19 @@ rotational symmetries required for the CS 550 portion of the assignment.
 
 = Appendix: Combined screenshot grids
 
-For each model, replace the four labeled boxes with one final 2-by-2 screenshot
-grid. The order must be: original, bounding-sphere adjusted, silhouette in the
-natural orientation, and normal rendering in the natural orientation.
+For each model, the existing `00` and `01` figures form the top row. Add the
+Part 3(a) silhouette screenshot as `10` and the Part 2(a) natural normal
+screenshot as `11`. The final order is therefore: original, bounding-sphere
+adjusted, silhouette, and natural normal rendering.
 
 #let screenshot-placeholder(model) = figure(
   grid(
     columns: 2,
     gutter: 3pt,
-    rect(width: 100%, height: 0.63in, fill: luma(245), stroke: gray)[
-      #align(center + horizon)[00 — upper-left]
-    ],
-    rect(width: 100%, height: 0.63in, fill: luma(235), stroke: gray)[
-      #align(center + horizon)[01 — upper-right]
-    ],
-    rect(width: 100%, height: 0.63in, fill: luma(225), stroke: gray)[
-      #align(center + horizon)[10 — lower-left]
-    ],
-    rect(width: 100%, height: 0.63in, fill: luma(215), stroke: gray)[
-      #align(center + horizon)[11 — lower-right]
-    ],
+    image("figures/" + model + "_00.png", width: 100%),
+    image("figures/" + model + "_01.png", width: 100%),
+    image("figures/" + model + "_10.png", width: 100%),
+    image("figures/" + model + "_11.png", width: 100%),
   ),
   caption: [#text(weight: "bold")[#model + ".ply"]]
 )
