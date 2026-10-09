@@ -157,10 +157,10 @@ edges while preserving the tetrahedron.
 
 == 3(a). Method and results
 
-The program first renders the triangles as a white depth-tested surface. It
-then transforms each triangle normal using the inverse-transpose normal
-matrix. For an edge with adjacent faces having view-space facing values
-$d_i = n_i dot (0,0,1)$, the edge is drawn when
+The silhouette mode does not require rendering a separate solid-white
+triangle pass. Instead, it transforms each triangle normal using the
+inverse-transpose normal matrix. For an edge with adjacent faces having
+view-space facing values $d_i = n_i dot (0,0,1)$, the edge is drawn when
 
 $ d_0 d_1 < 0. $
 

@@ -62,6 +62,7 @@ main(int argc, char* argv[]) {
     camera.set_size(width, height);
 
     glfwShowWindow(window);
+    glfwFocusWindow(window);
     display();
     while (!glfwWindowShouldClose(window)) glfwWaitEvents();
 
@@ -115,18 +116,40 @@ display() {
 
             // TODO: Render the mesh's triangles as solid white
 
-            // TODO: Compute the 3x3 normal matrix
-            // Hint: glm::mat3(glm::mat4) takes the 3x3 upper-left block of a
-            // 4x4 matrix and glm::transpose/glm::inverse compute the transpose
-            // and inverse of a matrix, respectively
+            // Normals transform with the inverse transpose of the upper-left
+            // 3x3 block of the model-view matrix.
+            const glm::mat3 normal_matrix =
+                glm::transpose(glm::inverse(glm::mat3(model_view)));
 
             glLineWidth(2.0f);
             glColor3f(0.0f, 0.0f, 0.0f);
 
-            // TODO: Draw the silhouettes of the object as black lines
-            // Hint: Compare the direction of view-space normals of triangles
-            // adjacent to each edge w.r.t. the viewing direction
-            // (Camera::front).
+            // An edge is a silhouette when its two adjacent faces point in
+            // opposite directions relative to the viewing direction. In view
+            // space, the camera direction is the z axis; the sign is enough
+            // because only opposite-facing normals are needed.
+            for (Edge* e : mesh->edges) {
+                Triangle* t0 = e->triangles[0];
+                Triangle* t1 = e->triangles[1];
+
+                if (t0 == nullptr)
+                    continue;
+
+                glm::vec3 n0 = glm::normalize(normal_matrix * t0->normal);
+                bool silhouette = (t1 == nullptr);
+
+                if (t1 != nullptr) {
+                    glm::vec3 n1 = glm::normalize(normal_matrix * t1->normal);
+                    silhouette = (n0.z < 0.0f) != (n1.z < 0.0f);
+                }
+
+                if (silhouette) {
+                    glBegin(GL_LINES);
+                    glVertex3fv(glm::value_ptr(e->vertices[0]->position));
+                    glVertex3fv(glm::value_ptr(e->vertices[1]->position));
+                    glEnd();
+                }
+            }
 
             break;
         }
