@@ -39,6 +39,8 @@ main(int argc, char* argv[]) {
         return 1;
     }
 
+    glfwWindowHint(GLFW_FOCUSED, GLFW_TRUE);
+    glfwWindowHint(GLFW_FLOATING, GLFW_TRUE);
     window = glfwCreateWindow(640, 480, "learnply2", nullptr, nullptr);
     if (!window) {
         glfwTerminate();

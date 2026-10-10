@@ -20,10 +20,11 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -55,10 +56,11 @@ events:
       - "/Users/nk/Android/Sdk/platform-tools/"
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
-      - "/Users/nk/.opam/default/bin/uname"
       - "/Users/nk/.config/emacs/bin/uname"
       - "/Users/nk/.bun/bin/uname"
       - "/home/nk/.opencode/bin/uname"
+      - "/Users/nk/.local/share/nvim/mason/bin/uname"
+      - "/Users/nk/.opam/default/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/usr/local/bin/uname"
@@ -66,6 +68,10 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -106,6 +112,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -138,10 +148,11 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -173,10 +184,11 @@ events:
       - "/Users/nk/Android/Sdk/platform-tools/"
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
-      - "/Users/nk/.opam/default/bin/gmake"
       - "/Users/nk/.config/emacs/bin/gmake"
       - "/Users/nk/.bun/bin/gmake"
       - "/home/nk/.opencode/bin/gmake"
+      - "/Users/nk/.local/share/nvim/mason/bin/gmake"
+      - "/Users/nk/.opam/default/bin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
       - "/usr/local/bin/gmake"
@@ -207,10 +219,11 @@ events:
       - "/Users/nk/Android/Sdk/emulator/gmake"
       - "/Users/nk/Android/Sdk/platform-tools/gmake"
       - "/usr/lib/jvm/java-17-openjdk/bin/gmake"
-      - "/Users/nk/.opam/default/bin/make"
       - "/Users/nk/.config/emacs/bin/make"
       - "/Users/nk/.bun/bin/make"
       - "/home/nk/.opencode/bin/make"
+      - "/Users/nk/.local/share/nvim/mason/bin/make"
+      - "/Users/nk/.opam/default/bin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
       - "/usr/local/bin/make"
@@ -218,6 +231,10 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -262,6 +279,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -288,10 +309,11 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -323,10 +345,11 @@ events:
       - "/Users/nk/Android/Sdk/platform-tools/"
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
-      - "/Users/nk/.opam/default/bin/cc"
       - "/Users/nk/.config/emacs/bin/cc"
       - "/Users/nk/.bun/bin/cc"
       - "/home/nk/.opencode/bin/cc"
+      - "/Users/nk/.local/share/nvim/mason/bin/cc"
+      - "/Users/nk/.opam/default/bin/cc"
       - "/opt/homebrew/bin/cc"
       - "/opt/homebrew/sbin/cc"
       - "/usr/local/bin/cc"
@@ -334,6 +357,10 @@ events:
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -374,6 +401,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -405,6 +436,10 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -445,6 +480,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -533,10 +572,11 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -569,6 +609,10 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -613,6 +657,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -634,10 +682,11 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -670,6 +719,10 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -714,6 +767,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -735,10 +792,11 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -771,6 +829,10 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -815,6 +877,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -836,10 +902,11 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -872,6 +939,10 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -916,6 +987,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -937,10 +1012,11 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -973,6 +1049,10 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1017,6 +1097,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1038,10 +1122,11 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1074,6 +1159,10 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1118,6 +1207,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1139,10 +1232,11 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1174,10 +1268,11 @@ events:
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/Users/nk/.opam/default/bin/objcopy"
       - "/Users/nk/.config/emacs/bin/objcopy"
       - "/Users/nk/.bun/bin/objcopy"
       - "/home/nk/.opencode/bin/objcopy"
+      - "/Users/nk/.local/share/nvim/mason/bin/objcopy"
+      - "/Users/nk/.opam/default/bin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
       - "/usr/local/bin/objcopy"
@@ -1210,6 +1305,10 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1254,6 +1353,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1275,10 +1378,11 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1310,10 +1414,11 @@ events:
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/Users/nk/.opam/default/bin/readelf"
       - "/Users/nk/.config/emacs/bin/readelf"
       - "/Users/nk/.bun/bin/readelf"
       - "/home/nk/.opencode/bin/readelf"
+      - "/Users/nk/.local/share/nvim/mason/bin/readelf"
+      - "/Users/nk/.opam/default/bin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
       - "/usr/local/bin/readelf"
@@ -1346,6 +1451,10 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1390,6 +1499,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1411,10 +1524,11 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1446,10 +1560,11 @@ events:
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/Users/nk/.opam/default/bin/dlltool"
       - "/Users/nk/.config/emacs/bin/dlltool"
       - "/Users/nk/.bun/bin/dlltool"
       - "/home/nk/.opencode/bin/dlltool"
+      - "/Users/nk/.local/share/nvim/mason/bin/dlltool"
+      - "/Users/nk/.opam/default/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/usr/local/bin/dlltool"
@@ -1482,6 +1597,10 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1526,6 +1645,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1547,10 +1670,11 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1582,10 +1706,11 @@ events:
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/Users/nk/.opam/default/bin/addr2line"
       - "/Users/nk/.config/emacs/bin/addr2line"
       - "/Users/nk/.bun/bin/addr2line"
       - "/home/nk/.opencode/bin/addr2line"
+      - "/Users/nk/.local/share/nvim/mason/bin/addr2line"
+      - "/Users/nk/.opam/default/bin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
       - "/usr/local/bin/addr2line"
@@ -1618,6 +1743,10 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1662,6 +1791,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1683,10 +1816,11 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -1718,10 +1852,11 @@ events:
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/Users/nk/.opam/default/bin/tapi"
       - "/Users/nk/.config/emacs/bin/tapi"
       - "/Users/nk/.bun/bin/tapi"
       - "/home/nk/.opencode/bin/tapi"
+      - "/Users/nk/.local/share/nvim/mason/bin/tapi"
+      - "/Users/nk/.opam/default/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/usr/local/bin/tapi"
@@ -1754,6 +1889,10 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1794,6 +1933,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -1828,6 +1971,10 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1868,6 +2015,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -1899,6 +2050,10 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -1939,6 +2094,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -2026,10 +2185,11 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2061,10 +2221,11 @@ events:
       - "/Users/nk/Android/Sdk/platform-tools/"
       - "/usr/lib/jvm/java-17-openjdk/bin/"
     searched_directories:
-      - "/Users/nk/.opam/default/bin/install_name_tool"
       - "/Users/nk/.config/emacs/bin/install_name_tool"
       - "/Users/nk/.bun/bin/install_name_tool"
       - "/home/nk/.opencode/bin/install_name_tool"
+      - "/Users/nk/.local/share/nvim/mason/bin/install_name_tool"
+      - "/Users/nk/.opam/default/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
@@ -2072,6 +2233,10 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -2116,6 +2281,10 @@ events:
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -2126,8 +2295,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq"
-      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq"
+      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ"
+      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2140,18 +2309,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq'
+        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4dadf/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4dadf.dir/build.make CMakeFiles/cmTC_4dadf.dir/build
-        Building C object CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c87a9/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c87a9.dir/build.make CMakeFiles/cmTC_c87a9.dir/build
+        Building C object CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 21.0.0 (clang-2100.3.34.2)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin25.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -2164,13 +2333,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_4dadf
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dadf.dir/link.txt --verbose=1
+        Linking C executable cmTC_c87a9
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c87a9.dir/link.txt --verbose=1
         Apple clang version 21.0.0 (clang-2100.3.34.2)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4dadf -L/usr/local/lib -v CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c87a9 -L/usr/local/lib -v CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-27037.1
         BUILD 21:17:51 Aug 25 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -2182,7 +2351,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -o cmTC_4dadf
+        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -o cmTC_c87a9
         
       exitCode: 0
   -
@@ -2226,18 +2395,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq']
+        ignore line: [Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4dadf/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4dadf.dir/build.make CMakeFiles/cmTC_4dadf.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c87a9/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c87a9.dir/build.make CMakeFiles/cmTC_c87a9.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-86EiAq -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-wkTIsZ -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin25.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -2250,14 +2419,14 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_4dadf]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dadf.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_c87a9]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c87a9.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4dadf -L/usr/local/lib -v CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4dadf -L/usr/local/lib -v CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c87a9 -L/usr/local/lib -v CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c87a9 -L/usr/local/lib -v CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -2274,10 +2443,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4dadf] ==> ignore
+          arg [cmTC_c87a9] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_4dadf.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_c87a9.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld 
@@ -2319,8 +2488,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu"
-      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu"
+      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh"
+      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2334,19 +2503,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu'
+        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_895d3/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_895d3.dir/build.make CMakeFiles/cmTC_895d3.dir/build
-        Building CXX object CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a74ee/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a74ee.dir/build.make CMakeFiles/cmTC_a74ee.dir/build
+        Building CXX object CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 21.0.0 (clang-2100.3.34.2)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin25.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -2360,13 +2529,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_895d3
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_895d3.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_a74ee
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a74ee.dir/link.txt --verbose=1
         Apple clang version 21.0.0 (clang-2100.3.34.2)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_895d3 -L/usr/local/lib -v CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a74ee -L/usr/local/lib -v CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-27037.1
         BUILD 21:17:51 Aug 25 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -2378,7 +2547,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_895d3
+        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a74ee
         
       exitCode: 0
   -
@@ -2424,19 +2593,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu']
+        ignore line: [Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_895d3/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_895d3.dir/build.make CMakeFiles/cmTC_895d3.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a74ee/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a74ee.dir/build.make CMakeFiles/cmTC_a74ee.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-61N3bu -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-MHSxnh -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin25.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -2450,14 +2619,14 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_895d3]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_895d3.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_a74ee]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a74ee.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_895d3 -L/usr/local/lib -v CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_895d3 -L/usr/local/lib -v CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a74ee -L/usr/local/lib -v CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_a74ee -L/usr/local/lib -v CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -2474,10 +2643,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_895d3] ==> ignore
+          arg [cmTC_a74ee] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_895d3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a74ee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
@@ -2531,8 +2700,9 @@ events:
       - "OpenGL"
       - "GL"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2571,6 +2741,10 @@ events:
     found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -2611,6 +2785,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -2661,8 +2839,9 @@ events:
       - "OpenGL"
       - "GLU"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2701,6 +2880,10 @@ events:
     found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -2741,6 +2924,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -2791,10 +2978,11 @@ events:
       - "OpenGL/gl.h"
       - "GL/gl.h"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -2855,10 +3043,11 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/nk/.opam/default/bin/OpenGL.framework/Headers/gl.h"
       - "/Users/nk/.config/emacs/bin/OpenGL.framework/Headers/gl.h"
       - "/Users/nk/.bun/bin/OpenGL.framework/Headers/gl.h"
       - "/home/nk/.opencode/bin/OpenGL.framework/Headers/gl.h"
+      - "/Users/nk/.local/share/nvim/mason/bin/OpenGL.framework/Headers/gl.h"
+      - "/Users/nk/.opam/default/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/gl.h"
       - "/usr/local/bin/OpenGL.framework/Headers/gl.h"
@@ -2915,6 +3104,10 @@ events:
     found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -2955,6 +3148,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -3005,10 +3202,11 @@ events:
       - "OpenGL/glu.h"
       - "GL/glu.h"
     candidate_directories:
-      - "/Users/nk/.opam/default/bin/"
       - "/Users/nk/.config/emacs/bin/"
       - "/Users/nk/.bun/bin/"
       - "/home/nk/.opencode/bin/"
+      - "/Users/nk/.local/share/nvim/mason/bin/"
+      - "/Users/nk/.opam/default/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/usr/local/bin/"
@@ -3069,10 +3267,11 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/nk/.opam/default/bin/OpenGL.framework/Headers/glu.h"
       - "/Users/nk/.config/emacs/bin/OpenGL.framework/Headers/glu.h"
       - "/Users/nk/.bun/bin/OpenGL.framework/Headers/glu.h"
       - "/home/nk/.opencode/bin/OpenGL.framework/Headers/glu.h"
+      - "/Users/nk/.local/share/nvim/mason/bin/OpenGL.framework/Headers/glu.h"
+      - "/Users/nk/.opam/default/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/glu.h"
       - "/usr/local/bin/OpenGL.framework/Headers/glu.h"
@@ -3129,6 +3328,10 @@ events:
     found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -3169,6 +3372,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -3210,8 +3417,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KR8oo2"
-      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KR8oo2"
+      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KrAMKy"
+      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KrAMKy"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -3225,15 +3432,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KR8oo2'
+        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KrAMKy'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ee72/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8ee72.dir/build.make CMakeFiles/cmTC_8ee72.dir/build
-        Building C object CMakeFiles/cmTC_8ee72.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_8ee72.dir/src.c.o -MF CMakeFiles/cmTC_8ee72.dir/src.c.o.d -o CMakeFiles/cmTC_8ee72.dir/src.c.o -c /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KR8oo2/src.c
-        Linking C executable cmTC_8ee72
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ee72.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 CMakeFiles/cmTC_8ee72.dir/src.c.o -o cmTC_8ee72
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3e28e/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3e28e.dir/build.make CMakeFiles/cmTC_3e28e.dir/build
+        Building C object CMakeFiles/cmTC_3e28e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_3e28e.dir/src.c.o -MF CMakeFiles/cmTC_3e28e.dir/src.c.o.d -o CMakeFiles/cmTC_3e28e.dir/src.c.o -c /Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-KrAMKy/src.c
+        Linking C executable cmTC_3e28e
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e28e.dir/link.txt --verbose=1
+        /usr/bin/cc  -arch arm64 CMakeFiles/cmTC_3e28e.dir/src.c.o -o cmTC_3e28e
         
       exitCode: 0
   -
@@ -3260,6 +3467,10 @@ events:
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -3300,6 +3511,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -3350,6 +3565,10 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerId.m.in"
     search_context:
       ENV{PATH}:
+        - "/Users/nk/.config/emacs/bin"
+        - "/Users/nk/.bun/bin"
+        - "/home/nk/.opencode/bin"
+        - "/Users/nk/.local/share/nvim/mason/bin"
         - "/Users/nk/.opam/default/bin"
         - "/Users/nk/.config/emacs/bin"
         - "/Users/nk/.bun/bin"
@@ -3390,6 +3609,10 @@ events:
         - "/Users/nk/Android/Sdk/platform-tools"
         - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/.orbstack/bin"
+        - "/Users/nk/go/bin"
+        - "/Users/nk/Android/Sdk/emulator"
+        - "/Users/nk/Android/Sdk/platform-tools"
+        - "/usr/lib/jvm/java-17-openjdk/bin"
         - "/Users/nk/go/bin"
         - "/Users/nk/Android/Sdk/emulator"
         - "/Users/nk/Android/Sdk/platform-tools"
@@ -3492,8 +3715,8 @@ events:
     checks:
       - "Detecting OBJC compiler ABI info"
     directories:
-      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi"
-      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi"
+      source: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl"
+      binary: "/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -3507,18 +3730,18 @@ events:
       variable: "CMAKE_OBJC_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi'
+        Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b26d1/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b26d1.dir/build.make CMakeFiles/cmTC_b26d1.dir/build
-        Building OBJC object CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o
-        /usr/bin/cc   -x objective-c -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -MF CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o.d -o CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17a6d/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_17a6d.dir/build.make CMakeFiles/cmTC_17a6d.dir/build
+        Building OBJC object CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o
+        /usr/bin/cc   -x objective-c -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -MF CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o.d -o CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m
         Apple clang version 21.0.0 (clang-2100.3.34.2)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fobjc-runtime=macosx-26.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -x objective-c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fobjc-runtime=macosx-26.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -x objective-c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m
         clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin25.6.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -3531,13 +3754,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking OBJC executable cmTC_b26d1
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b26d1.dir/link.txt --verbose=1
+        Linking OBJC executable cmTC_17a6d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17a6d.dir/link.txt --verbose=1
         Apple clang version 21.0.0 (clang-2100.3.34.2)
         Target: arm64-apple-darwin25.6.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b26d1 -L/usr/local/lib -v CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_17a6d -L/usr/local/lib -v CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-27037.1
         BUILD 21:17:51 Aug 25 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -3549,7 +3772,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -o cmTC_b26d1
+        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -o cmTC_17a6d
         
       exitCode: 0
   -
@@ -3593,18 +3816,18 @@ events:
       Parsed OBJC implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi']
+        ignore line: [Change Dir: '/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b26d1/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b26d1.dir/build.make CMakeFiles/cmTC_b26d1.dir/build]
-        ignore line: [Building OBJC object CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o]
-        ignore line: [/usr/bin/cc   -x objective-c -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -MF CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o.d -o CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17a6d/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_17a6d.dir/build.make CMakeFiles/cmTC_17a6d.dir/build]
+        ignore line: [Building OBJC object CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o]
+        ignore line: [/usr/bin/cc   -x objective-c -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -MF CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o.d -o CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m]
         ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-WioAPi -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fobjc-runtime=macosx-26.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -x objective-c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=27.0 -fdepfile-entry=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/SDKSettings.json -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl -target-linker-version 1166.2 -v -fcoverage-compilation-dir=/Users/nk/OSU/Term/Fall2026/CS550/project1/HW1/build/CMakeFiles/CMakeScratch/TryCompile-gzRXGl -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fobjc-runtime=macosx-26.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -x objective-c /opt/homebrew/share/cmake/Modules/CMakeOBJCCompilerABI.m]
         ignore line: [clang -cc1 version 21.0.0 (clang-2100.3.34.2) default target arm64-apple-darwin25.6.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -3617,14 +3840,14 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking OBJC executable cmTC_b26d1]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b26d1.dir/link.txt --verbose=1]
+        ignore line: [Linking OBJC executable cmTC_17a6d]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17a6d.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
         ignore line: [Target: arm64-apple-darwin25.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b26d1 -L/usr/local/lib -v CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b26d1 -L/usr/local/lib -v CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_17a6d -L/usr/local/lib -v CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 27.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_17a6d -L/usr/local/lib -v CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -3641,10 +3864,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b26d1] ==> ignore
+          arg [cmTC_17a6d] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b26d1.dir/CMakeOBJCCompilerABI.m.o] ==> ignore
+          arg [CMakeFiles/cmTC_17a6d.dir/CMakeOBJCCompilerABI.m.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
         linker tool for 'OBJC': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld 
