@@ -1,7 +1,11 @@
 // CS 450/550 Introduction to Computer Graphics — Project 1
 // Compile with: typst compile docs/report.typ docs/report.pdf
 
-#set page(paper: "us-letter", margin: 1in)
+#set page(
+  paper: "us-letter",
+  margin: 1in,
+  footer: context align(center)[#counter(page).display()]
+)
 #set text(font: "New Computer Modern", size: 11pt, lang: "en")
 #set heading(numbering: none)
 #set par(justify: true)
